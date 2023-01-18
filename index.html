@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="store.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="topBar">
+        <h1>Komputer Store</h1>
+    </div>
+
+
+
+    <div class="container">
+        <!-- Bank section -->
+        <div class="bankSection">
+            <h2>Bank</h2>
+            <label>Current bank balance</label>
+            <p id="bankBalance"></p>
+            <label id="loanTitle" style="display: none">Remaining loan</label>
+            <p id="loanAmount"></p>
+            <button id="loanButton">Get a loan</button>
+
+        </div>
+
+        <!-- Work section -->
+        <div class="workSection">
+            <h2>Work</h2>
+            <p>Work money balance</p>
+            <p id="workBalance"></p>
+            <button id="bankButton">BANK</button>
+            <button id="workButton">WORK</button>
+            <button id="repayButton" style="display: none">Repay Loan</button>
+
+        </div>
+
+        <!-- Laptops -->
+        <div class="laptopSection">
+            <h2>Laptops</h2>
+            <select name="laptops" id="laptops"></select>
+            <p>Features:
+            </p>
+            <ul>
+                <li id="specList">
+
+                </li>
+            </ul>
+
+        </div>
+
+        <!-- Buying section -->
+        <div class="buySection">
+            <h4 id="laptopTitle"></h4>
+            <div id="imageSection"></div>
+            <p id="laptopPrice"></p>
+            <p id="laptopDescription"></p>
+            <button id="buyButton">BUY</button>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
